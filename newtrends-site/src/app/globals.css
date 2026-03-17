@@ -47,6 +47,21 @@ h4 {
   padding: 1.25rem;
 }
 
+.input {
+  width: 100%;
+  border-radius: 0.8rem;
+  border: 1px solid rgb(255 255 255 / 0.16);
+  background: rgb(255 255 255 / 0.03);
+  color: var(--ivory);
+  padding: 0.75rem 0.95rem;
+  outline: none;
+}
+
+.input:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 2px rgb(198 165 107 / 0.22);
+}
+
 @keyframes marquee {
   from {
     transform: translateX(0);
